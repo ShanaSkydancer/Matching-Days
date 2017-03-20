@@ -18,15 +18,15 @@ h1 {
 ul {
   list-style-type: none;
   font-family: 'Baloo Bhaina', cursive;
-  font-size: 45px:
 }
 
-.weekdays li {
+li {
   display: inline-block;
   width: 13.6%;
+  height: 13.6%;
   text-align: center;
-  font-size: 25px
-
+  font-size: 31px;
+  background-color: transparent, initial, inherit;
 }
 
 .dateLeft {
@@ -47,23 +47,24 @@ ul {
 
 button {
   background-color: #d40e00;
-  margin-left: 45em;
+  font-size: 20px;
+  margin-left: 29em;
   margin-top: 2em;
+  cursor: pointer, cursor: hand;
 }
 
-#dateBlue {
-  background-color: blue;
+.dateBlue {
+  background-color: blue !important;
 }
 
-#dateRed {
-  background-color: red;
+.dateRed {
+  background-color: red !important;
 }
 
-#dateGreen {
-  background-color: green;
+.dateGreen {
+  background-color: green !important;
 }
 
-#dateNormal {
-  background-color: transparent, initial, inherit;
-
+.dateNormal {
+  background-color: transparent, initial, inherit, !important;
 }
